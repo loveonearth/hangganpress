@@ -14,7 +14,7 @@ body {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #636363;
   background-color: #fefefe;
 }
@@ -22,13 +22,12 @@ body {
 a {
   color: #000000;
   text-decoration: none;
-  font-weight: 700;
   margin: 0 0.5rem;
 }
 
 a:hover {
   text-decoration: underline;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 footer {
