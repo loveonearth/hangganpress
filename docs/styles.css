@@ -8,7 +8,7 @@
 body {
   font-family: 'DOSGothic', sans-serif;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0;
   padding: 2rem;
   max-width: 700px;
@@ -21,7 +21,7 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -37,12 +37,12 @@ a:hover {
 }
 
 footer {
+  font-size: 1.4rem;
   position: fixed;
-  bottom: 0;
+  bottom: 2rem;
   left: 0;
   right: 0;
   text-align: center;
   background: #fff;
   padding: 0.5rem 0;
-  font-size: 0.9rem;
 }
