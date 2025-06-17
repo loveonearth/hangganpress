@@ -8,6 +8,7 @@
 body {
   font-family: 'DOSMyungjo', serif;
   font-weight: normal;
+  font-size: 1rem;
   margin: 0;
   padding: 2rem;
   max-width: 700px;
@@ -16,6 +17,12 @@ body {
   line-height: 1.8;
   color: #636363;
   background-color: #fefefe;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1.2rem;
+  }
 }
 
 a {
