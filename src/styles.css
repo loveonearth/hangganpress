@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'DOSMyungjo';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
+    font-family: 'DOSGothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-  font-family: 'DOSMyungjo', serif;
+  font-family: 'DOSGothic', sans-serif;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 0;
   padding: 2rem;
   max-width: 700px;
@@ -21,7 +21,7 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 }
 
