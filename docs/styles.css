@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'DOSGothic';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSGothic.woff') format('woff');
+    font-family: 'SunBatang-Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-  font-family: 'DOSGothic', sans-serif;
+  font-family: 'SunBatang-Light', serif;
   font-weight: normal;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 0;
   padding: 2rem;
   max-width: 700px;
@@ -21,7 +21,7 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -32,12 +32,11 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 700;
 }
 
 footer {
-  font-size: 1.4rem;
   position: fixed;
   bottom: 2rem;
   left: 0;
