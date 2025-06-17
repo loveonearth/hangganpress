@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
-  font-family: 'Orbit', sans-serif;
+  font-family: 'DOSMyunjo', serif;
+  font-weight: 400;
   margin: 0;
   padding: 2rem;
   max-width: 700px;
